@@ -255,18 +255,21 @@ h4{
     background-size: 120px;
     border: 5px solid white;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     top: -4vh;
 }
 #dp1{
     background-image: url(./images/pexels-pixabay-220453.jpg);
+    position: absolute;
 }
 #dp2{
     background-image: url(./images/pexels-italo-melo-2379004.jpg);
+    position: absolute;
 
 }
 #dp3{
     background-image: url(./images/pexels-andrea-piacquadio-3777557.jpg);
+    position: absolute;
 }
 #p6{
     font-size: 18px;
@@ -277,9 +280,8 @@ h4{
 .p7{
     text-align: right;
     font-size: 15px;
-    position: relative;
-    left: 5vw;
-    top: 2vh;
+    margin-right: -100px;
+    margin-top: 2vh;
     color: #ffe100;
 }
 
@@ -351,8 +353,8 @@ h4{
         height: 250vh;
     }
     .box{
-        width: 65vw;
-        height: 80vh;
+        width: 70vw;
+        height: 70vh;
     }
     #img2,#img3{
         width: 10vw;
@@ -364,6 +366,7 @@ h4{
     }
     #b1{
         top: 10px;
+        height: 40vh;
     }
     .sub3{
         position: relative;
@@ -378,18 +381,17 @@ h4{
     }
     #dp2{
         position: absolute;
-        top: 82vh;
-        width: 150px;
-        height: 150px;
+        top: 72vh;
+    }
+     #dp1{
+        position: absolute;
+
     }
     #dp3{
         position: absolute;
-        top: 166vh;
-        width: 150px;
-        height: 150px;
-    }
+        top: 148vh;
     #b5{
-        height: 70vh;
+        height: 60vh;
     }
 }
 .show{
