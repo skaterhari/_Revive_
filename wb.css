@@ -354,7 +354,7 @@ h4{
     }
     .box{
         width: 70vw;
-        height: 70vh;
+        height: 65vh;
     }
     #img2,#img3{
         width: 10vw;
@@ -381,7 +381,7 @@ h4{
     }
     #dp2{
         position: absolute;
-        top: 72vh;
+        top: 70vh;
     }
      #dp1{
         position: absolute;
@@ -389,7 +389,7 @@ h4{
     }
     #dp3{
         position: absolute;
-        top: 148vh;
+        top: 145vh;
     #b5{
         height: 60vh;
     }
